@@ -3,6 +3,7 @@ package com.drdirlsoftware.pinkavoider;
 import static android.content.ContentValues.TAG;
 import static android.media.AudioTrack.PLAYSTATE_PLAYING;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -889,6 +890,14 @@ public class MainActivity extends AppCompatActivity {
         ViewCompat.setElevation(gameText[0], 15);
         ViewCompat.setElevation(gameText[1], 15);
 
+        OnBackPressedCallback callback = new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                onBackPressedCallback();
+            }
+        };
+
+        getOnBackPressedDispatcher().addCallback(this, callback);
 
         new Thread(new Task()).start();
     }
@@ -1861,8 +1870,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @Override
-    public void onBackPressed() {
+    public void onBackPressedCallback() {
         if (inMenu()) {
             if (deleteLayout.getVisibility() == View.VISIBLE) {
                 deleteLayout.setVisibility(View.INVISIBLE);
