@@ -43,6 +43,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.android.billingclient.api.PendingPurchasesParams;
 import com.android.billingclient.api.QueryPurchasesParams;
 
 import java.util.ArrayList;
@@ -3580,7 +3581,7 @@ public class MainActivity extends AppCompatActivity {
 
     void initializeBillingClient() {
         billingClient = BillingClient.newBuilder(this)
-                .enablePendingPurchases()
+                .enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())
                 .setListener(
                         (billingResult, list) -> {
                             if(billingResult.getResponseCode()==BillingClient.BillingResponseCode.OK && list != null) {
@@ -3630,12 +3631,12 @@ public class MainActivity extends AppCompatActivity {
             //Clear the list
             productDetailsList.clear();
 
-            Log.d(TAG,"Size "+list.size());
+            Log.d(TAG,"Size "+list.getProductDetailsList().size());
 
             //Handler to delay by two seconds to wait for google play to return the list of products.
             handler.postDelayed(() -> {
                 //Adding new productList, returned from google play
-                productDetailsList.addAll(list);
+                productDetailsList.addAll(list.getProductDetailsList());
 
                 //Updating the UI
                 //If the product is not showing then it means that you didn't properly setup your Testing email.
