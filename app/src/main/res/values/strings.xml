@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Pink Avoider</string>
+    <string name="menuButton0">Start game</string>
+    <string name="menuButton1">Settings</string>
+    <string name="copyright">© 2020 DrDirlSoftware</string>
+    <string name="time">Time: </string>
+    <string name="best">  Best: </string>
+    <string name="notime">no_time</string>
+    <string name="paused">Paused</string>
+    <string name="settings_text">Settings</string>
+    <string name="select_level_text">Select Level</string>
+    <string name="interstitialText1">Level</string>
+    <string name="interstitialText2">Menu</string>
+    <string name="music_button_0">Joystick: Hide</string>
+    <string name="music_button_1">Joystick: Show</string>
+    <string name="sound_effects_button_0">Sound: OFF</string>
+    <string name="sound_effects_button_1">Sound:  ON</string>
+    <string name="delete_saved_data_button">Delete data</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="ads_removed">Ads Removed</string>
+
+
+    <string name="menu_button">Menu</string>
+    <string name="resume_button">Resume</string>
+    <string name="time_text">Time: %1$.2f</string>
+    <string name="end_text_0">Level Failed</string>
+    <string name="end_text_1">Level Complete</string>
+    <string name="end_score_text_0">Time: %1$.2f  New Best Time!</string>
+    <string name="end_score_text_1">Time: %1$.2f  Best: %2$.2f</string>
+    <string name="end_score_text_2">Time: —.—  Best: %1$.2f</string>
+    <string name="end_score_text_3">Time: —.—  Best: —.—</string>
+    <string name="end_button_0">Menu</string>
+    <string name="end_button_1">Retry</string>
+    <string name="end_button_2">Next</string>
+    <string name="intersticeText0">Menu</string>
+    <string name="intersticeText1">Level %d</string>
+    <string name="deleteText0">Are you sure you want do delete all saved data?</string>
+    <string name="deleteText1">All saved data has been deleted</string>
+    <string name="deleteButton0">Cancel</string>
+    <string name="deleteButton1">Delete</string>
+    <string name="deleteButton2">Continue</string>
+    <string name="credits_button">Credits</string>
+    <string name="level1">Continue</string>
+
+    <string name="credits0">Pink Avoider</string>
+    <string name="credits1">Released 19 April 2023</string>
+    <string name="credits2">Made by</string>
+    <string name="credits3">Declan Kennedy</string>
+    <string name="credits4">of</string>
+    <string name="credits5">DrDirl Software</string>
+    <string name="credits6">Based on 2012 project</string>
+    <string name="credits7">The Pink Avoider</string>
+    <string name="credits8">by DoctorDIrl on Scratch</string>
+    <string name="credits9">with thanks to CoderDojo</string>
+    <string name="credits10">Special Thanks to</string>
+    <string name="credits11">Daragh Kennedy</string>
+    <string name="credits12">Thanks for playing!</string>
+    <string name="credits13">The End</string>
+
+
+    <string name="game_level_text">Level %d</string>
+    <string name="end_level_text">Level %d: %s</string>
+    <string name="end_credits_button">Credits</string>
+
+
+    <string-array name="level">
+        <item>Easy as Pie</item>
+        <item>Turning Test</item>
+        <item>Over The Moon</item>
+        <item>Gravitational</item>
+        <item>Isosceles</item>
+        <item>Pipework</item>
+        <item>Spiral Arms</item>
+        <item>Oval Track</item>
+        <item>Lucky Number</item>
+        <item>Mobile Patrol</item>
+
+        <item>Diagonal</item>
+        <item>Computer P</item>
+        <item>The Traveler</item>
+        <item>Colossal Girder</item>
+        <item>Vertical Dangers</item>
+        <item>Vanishing Path</item>
+        <item>Cannonball</item>
+        <item>Key Cutter</item>
+        <item>Through Spinners</item>
+        <item>Press The Button</item>
+
+        <item>Permittivity</item>
+        <item>Hitchhike</item>
+        <item>Figure of Eight</item>
+        <item>Crusher Brothers</item>
+        <item>Enzyme</item>
+        <item>Four Corners</item>
+        <item>Particle Mixer</item>
+        <item>Red Retrieval</item>
+        <item>Hive Mind</item>
+        <item>Third Dimension</item>
+
+        <item>Questioned Road</item>
+        <item>Perceptive</item>
+        <item>Wingnut Winder</item>
+        <item>Underpass Repairs</item>
+        <item>River Rafting</item>
+        <item>Speedy Slicers</item>
+        <item>Tunneling</item>
+        <item>Meteor Shower</item>
+        <item>Triple Threat</item>
+        <item>Stay Close</item>
+
+        <item>Thunderbolt</item>
+        <item>Capital X</item>
+        <item>Fortification</item>
+        <item>Storm Drain</item>
+        <item>Epicenter</item>
+        <item>Square Police</item>
+        <item>Heat Wave</item>
+        <item>Appearing Paths</item>
+        <item>No Trespassing</item>
+        <item>Spaghetti Circuit</item>
+
+        <item>Conveyor Belt</item>
+        <item>Master Unlock</item>
+        <item>Bus Commuter</item>
+        <item>Confused Geometry</item>
+        <item>Coin Machine</item>
+        <item>Turbulence</item>
+        <item>Prickly Passage</item>
+        <item>Maze of Manipulation</item>
+        <item>Return to Sender</item>
+        <item>Twister Chase</item>
+
+        <item>Zucchini Zappers</item>
+        <item>Compromise Carrier</item>
+        <item>In The Loop</item>
+        <item>Seismic Torque</item>
+        <item>Gateway Puzzle</item>
+        <item>How High Can You Get?</item>
+        <item>Short Sighted</item>
+        <item>Skyward Elevator</item>
+        <item>Phase Shift</item>
+        <item>Nine Rooms</item>
+
+        <item>Intergalactic Traffic</item>
+        <item>Fracture Factory</item>
+        <item>Plate Tectonics</item>
+        <item>Mesh Render</item>
+        <item>Pulsation</item>
+        <item>Six-Legged</item>
+        <item>Down the Cellar</item>
+        <item>Apocalypse</item>
+        <item>Magnet Train</item>
+        <item>Behind Bars</item>
+
+        <item>Hostile Links</item>
+        <item>Clockwork</item>
+        <item>Board the Metro</item>
+        <item>Live Wire</item>
+        <item>Lightning Strikes Twice</item>
+        <item>Flicker Flight</item>
+        <item>Circumvention</item>
+        <item>Vacuum Tube</item>
+        <item>Strongbox</item>
+        <item>Hailstorm</item>
+
+        <item>Mendacious Mirror</item>
+        <item>Big Wheel</item>
+        <item>Lava Rapids</item>
+        <item>In Sync</item>
+        <item>Crunch Time</item>
+        <item>Dielectric Dance</item>
+        <item>Office Block</item>
+        <item>Crackdown</item>
+        <item>Checkerboard</item>
+        <item>Heart of Pink</item>
+    </string-array>
+</resources>
