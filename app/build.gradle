@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.drdirlsoftware.pinkavoider"
-        minSdk 21
+        minSdk 23
         targetSdk 36
         versionCode 10
         versionName "1.0"
