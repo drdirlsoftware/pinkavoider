@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.drdirlsoftware.pinkavoider"
-        minSdk 19
-        targetSdk 33
+        minSdk 21
+        targetSdk 36
         versionCode 10
         versionName "1.0"
         multiDexEnabled true
